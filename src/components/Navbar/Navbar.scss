@@ -1,0 +1,18 @@
+.navbar {
+    &-search {
+        position: relative;
+        display: flex;
+        align-items: center;
+        img {
+            position: absolute;
+            left: 1rem;
+        }
+    }
+    input {
+        padding-inline-start: 2.5rem;
+        border-radius: 5rem;
+        height: 50px;
+        border: 0;
+        box-shadow: 0 5px 20px rgb(0 0 0 / 6%);
+    }
+}
